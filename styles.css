@@ -206,3 +206,32 @@ main{
     background: #fff8f3;
     padding: 130px 200px;
 }
+
+.contract input[type="text"], input[type="email"], textarea{
+    margin-bottom: 23px;
+    border: 0;
+    width: 100%;
+    padding: 18px 34px;
+}
+input{
+    height: 64px;
+}
+
+.section-description{
+    color: #474747;
+    font-size: 18px;
+    margin: 40px 0;
+}
+
+.contract .section-title{
+    font-size: 35px;
+    font-weight: 600;
+    font-family: 'Open sans' sans-serif;
+}
+
+
+.contract-social{
+    display: flex;
+    align-items: center;  
+    gap: 2rem;  
+}
