@@ -6,10 +6,18 @@
 
 /* header aand navigation styles */
 
+.header{
+    background: #fff8f3;
+    background-image: url(Images/header_bg.png), url(Images/developer.png);
+    background-repeat: no-repeat;
+    background-position-x: right, left;
+    background-position-y: bottom;
+}
+
 nav{
     display: flex;
     justify-content: space-between;
-    margin: 20px 200px;
+    padding: 20px 200px;
 }
 
 .nav-title{
@@ -19,6 +27,7 @@ nav{
 
 nav ul{
     display: flex;
+    align-items: center;
 }
 
 nav li{
@@ -28,4 +37,86 @@ nav li{
 
 .text-primary{
     color: #fd6e0a;
+}
+
+.btn-primary{
+    height: 64px;
+    border-radius: 5px;
+    background: #fd6e0a;
+    color: #fff;
+    font-weight: 700;
+    font-size: 20px;
+    border: 0;
+    padding: 18px 36px;
+}
+
+/* banner styles */
+.banner{
+    margin: 0 50px 0 200px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.banner-title{
+    font-size: 84px;
+    font-weight: 700;
+}
+
+.banner-sub-title{
+    font-weight: 600;
+    font-size: 45px;
+    margin-bottom: 20px;
+}
+
+.banner-discription{
+    color: #757575;
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+/* Main Seciton */
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+/* About Section Styles */
+
+.about{
+    margin-top: 130px;
+    background: #fff8f3;
+    padding: 130px 150px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.section-title{
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.section-discription{
+    color: #757575;
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+.about-info-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 50px 0 10px;
+    padding: -1px 150px;
+}
+
+.about-info .info-title{
+    color: #757575;
+    font-size: 20px;
+    margin-bottom: 8px;
+}
+
+.about-info .info-description{
+    font-size: 18px;
+    font-weight: 500;
+    font-family: 'Open sans' sans-serif;
 }
